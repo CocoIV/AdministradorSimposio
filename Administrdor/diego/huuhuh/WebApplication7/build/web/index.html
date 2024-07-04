@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador UCR</title>
+    <link rel="stylesheet" href="CSS/admin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="header">
+                <img src="logo-ucr.png" alt="Logo UCR">
+            </div>
+            <button class="admin-button">Panel de Administrador UCR</button>
+            <a href="JSP/AñadirInscrito.jsp" target="content-frame" class="button">Añadir Inscritos</a>
+            <a href="JSP/EliminarInscrito.jsp" target="content-frame" class="button">Eliminar Inscritos</a>
+            <a href="JSP/ListaInscritos.jsp" target="content-frame" class="button">Lista de Inscritos</a>
+            <a href="JSP/CrearTaller.jsp" target="content-frame" class="button">Crear Taller</a>
+            <a href="JSP/modificar.jsp" target="content-frame" class="button">Modificar Taller</a>
+            <a href="JSP/EliminarTaller.jsp" target="content-frame" class="button">Eliminar Taller</a>
+             <a href="JSP/SolicitudInscritos.jsp" target="content-frame" class="button">Solicitudes de Inscripcion</a>
+        </div>
+        <div class="content">
+            <iframe name="content-frame" class="content-frame"></iframe>
+        </div>
+    </div>
+</body>
+</html>
